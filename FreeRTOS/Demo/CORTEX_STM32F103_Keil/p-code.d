@@ -1,0 +1,14 @@
+.\p-code.o: User\P-code.c
+.\p-code.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\p-code.o: ..\..\Source\include\FreeRTOS.h
+.\p-code.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\p-code.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\p-code.o: ..\CORTEX_STM32F103_Keil\FreeRTOSConfig.h
+.\p-code.o: ..\..\Source\include\projdefs.h
+.\p-code.o: ..\..\Source\include\portable.h
+.\p-code.o: ..\..\Source\include\deprecated_definitions.h
+.\p-code.o: ..\..\Source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h
+.\p-code.o: ..\..\Source\include\mpu_wrappers.h
+.\p-code.o: ..\..\Source\include\task.h
+.\p-code.o: ..\..\Source\include\list.h
+.\p-code.o: ..\..\Source\include\queue.h

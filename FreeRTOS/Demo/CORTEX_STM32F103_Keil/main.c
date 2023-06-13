@@ -63,13 +63,13 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
+#include "event_groups.h"
 
 /* Library includes. */
 #include "stm32f10x_it.h"
 
 /* Demo app includes. */
-#include "lcd.h"
-#include "LCD_Message.h"
+
 #include "BlockQ.h"
 #include "death.h"
 #include "integer.h"
@@ -234,7 +234,6 @@ static void prvSetupHardware( void )
 	/* Configure HCLK clock as SysTick clock source. */
 	SysTick_CLKSourceConfig( SysTick_CLKSource_HCLK );
 
-	vParTestInitialise();
 }
 /*-----------------------------------------------------------*/
 

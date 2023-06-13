@@ -12,6 +12,8 @@
 .\main.o: ..\..\Source\include\task.h
 .\main.o: ..\..\Source\include\list.h
 .\main.o: ..\..\Source\include\queue.h
+.\main.o: ..\..\Source\include\event_groups.h
+.\main.o: ..\..\Source\include\timers.h
 .\main.o: .\STM32F10xFWLib\inc\stm32f10x_it.h
 .\main.o: .\STM32F10xFWLib\inc\stm32f10x_lib.h
 .\main.o: .\STM32F10xFWLib\inc\stm32f10x_map.h
@@ -25,8 +27,6 @@
 .\main.o: .\STM32F10xFWLib\inc\stm32f10x_spi.h
 .\main.o: .\STM32F10xFWLib\inc\stm32f10x_systick.h
 .\main.o: .\STM32F10xFWLib\inc\stm32f10x_usart.h
-.\main.o: .\STM32F10xFWLib\inc\lcd.h
-.\main.o: LCD_Message.h
 .\main.o: ..\Common\include\BlockQ.h
 .\main.o: ..\Common\include\death.h
 .\main.o: ..\Common\include\integer.h
